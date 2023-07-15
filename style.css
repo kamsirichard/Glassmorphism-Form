@@ -190,3 +190,34 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+@media (max-width: 779px){
+   
+    form{
+        width: 90%;
+       
+    }
+    input{
+        width: 100%;
+    }
+    .shape:last-child{
+        background: linear-gradient(
+            to right,
+            #ebe7e6,
+            #f09819
+        );
+        right: 50px;
+        width: 150px;
+        height: 150px;
+        
+    } 
+   
+    .shape:first-child{
+        background: linear-gradient(
+            #9b22ea,
+            #bf23f6
+        );
+        left: 50px;;
+        width: 150px;
+        height: 150px;
+    }
+}
