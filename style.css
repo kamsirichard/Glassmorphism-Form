@@ -191,9 +191,14 @@ button{
     cursor: pointer;
 }
 @media (max-width: 779px){
-   
+    .wrapper{
+        width: 110%;
+        height: 120%;
+        overflow: hidden;
+    }
     form{
         width: 90%;
+        margin-left: 40px;
        
     }
     input{
@@ -202,8 +207,8 @@ button{
     .shape:last-child{
         background: linear-gradient(
             to right,
-            #ebe7e6,
-            #f09819
+            #85433300,
+            #aa6d1719
         );
         right: 50px;
         width: 150px;
@@ -213,8 +218,8 @@ button{
    
     .shape:first-child{
         background: linear-gradient(
-            #9b22ea,
-            #bf23f6
+            #9a22ea00,
+            #be23f600
         );
         left: 50px;;
         width: 150px;
